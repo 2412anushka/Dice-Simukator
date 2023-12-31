@@ -8,7 +8,7 @@ root=tk.Tk()
 root.geometry("2000x2000")
 root.title("Dice Roller Simulator")
 
-dice=["DiceImg\d1.png","DiceImg\d2.png","DiceImg\d3.png","DiceImg\d4.png","DiceImg\d5.png","DiceImg\d6.png"]
+dice=["Dice-Simulator\DiceImg\d1.png","Dice-Simulator\DiceImg\d2.png","Dice-Simulator\DiceImg\d3.png","Dice-Simulator\DiceImg\d4.png","Dice-Simulator\DiceImg\d5.png","Dice-Simulator\DiceImg\d6.png"]
 image1=ImageTk.PhotoImage(Image.open(random.choice(dice)))
 image2=ImageTk.PhotoImage(Image.open(random.choice(dice)))
 
